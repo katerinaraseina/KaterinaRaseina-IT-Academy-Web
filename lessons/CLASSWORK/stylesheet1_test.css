@@ -1,0 +1,14 @@
+
+<!--{font-family: 'Roboto', sans-serif}--> 
+<!-- {font-weight: 900 ;- жирность }-->
+{font-size: 48px -размер шрифта}
+{font-style:nornal  - наклон фрифта}
+{text-decoration: underline
+line-height:10px - высота строки 
+letter-spacing: 5px-рассточние между буквами
+word-spacing: 2px -  рассточние между словами
+write-spase: nowrap
+
+
+}
+#test {font-family: 'Dancing Script', cursive;}
