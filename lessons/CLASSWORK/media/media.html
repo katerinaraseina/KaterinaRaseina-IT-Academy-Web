@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .part1 {
+            background-color: blue;
+
+        }
+
+        .part2 {
+            background-color: aqua;
+            width: 200px;
+            height: 400px;
+            float: left;
+        }
+
+        .part3 {
+            background-color: rgb(183, 255, 0);
+
+
+        }
+
+        .part4 {
+            background-color: rgb(255, 0, 191);
+            width: 200px;
+            height: 400px;
+            float: right;
+
+        }
+
+        .part5 {
+            background-color: rgb(0, 255, 4);
+
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .group {
+            background-color: rgb(0, 229, 255);
+        }
+
+        @media all and (max-width:800px) {
+            .part2 {
+                background-color: aqua;
+                width: auto;
+                height:320px;
+                float: none;
+            }
+
+            .part3 {
+                background-color: rgb(33, 217, 33);
+                height: 100px;
+                
+            }
+            .part4 {
+            background-color: rgb(255, 0, 191);
+            width: auto;
+            height: 320px;;
+            float:none;}
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="part1">Блок1</div>
+    <div class="group">
+        <div class="part2">Блок2</div>
+        <div class="part4">Блок4</div>
+        <div class="part3">Блок3</div>
+        <div class="clear"></div>
+    </div>
+    <div class="part5">Блок5</div>
+</body>
+
+</html>
